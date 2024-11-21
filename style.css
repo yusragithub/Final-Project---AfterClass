@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #202020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.heading-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+}
+
+.heading-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navigation-link {
+    border: 2p solid transparent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(94, 67, 246);
+    transition: 1s ease;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('pexels-seven11nash-380769.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
