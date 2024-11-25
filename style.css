@@ -18,6 +18,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: x-large;
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .heading-3 {
@@ -51,3 +52,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.about {
+    background: #910b47;
+    border-radius: 10px;
+}
+
